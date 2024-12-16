@@ -1,21 +1,3 @@
-// document.addEventListener("DOMContentLoaded", () => {
-//     const radioButtons = document.querySelectorAll('input[name="unit"]');
-//     const footer = document.querySelector(".footer span strong");
-  
-//     radioButtons.forEach((radio) => {
-//       radio.addEventListener("change", () => {
-//         // Update Total Price in Footer
-//         if (radio.id === "unit-1") {
-//           footer.textContent = "$10.00";
-//         } else if (radio.id === "unit-2") {
-//           footer.textContent = "$18.00";
-//         } else if (radio.id === "unit-3") {
-//           footer.textContent = "$24.00";
-//         }
-//       });
-//     });
-//   });
-  
 
 document.addEventListener("DOMContentLoaded", () => {
   const boxes = document.querySelectorAll(".box");
