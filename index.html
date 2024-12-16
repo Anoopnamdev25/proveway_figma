@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Boxes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">YAY! It's BOGO</h1>
+
+    <!-- Box 1 -->
+    <div class="box" id="box-1">
+      <input type="radio" name="unit" id="unit-1">
+      <label for="unit-1">
+        <div class="box-header">
+          <span>1 Unit</span>
+          <span class="discount">10% Off</span>
+          <span class="price">$10.00 USD</span>
+          <span class="strike">$24.00 USD</span>
+        </div>
+      </label>
+    </div>
+
+    <!-- Box 2 -->
+    <div class="box" id="box-2">
+      <input type="radio" name="unit" id="unit-2">
+      <label for="unit-2">
+        <div class="box-header most-popular">
+          <span>2 Unit</span>
+          <span class="discount">20% Off</span>
+          <span class="price">$18.00 USD</span>
+          <span class="strike">$24.00 USD</span>
+        </div>
+        <div class="options">
+          <div class="option">
+            <label>#1:</label>
+            <select>
+              <option>Size</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option>Color</option>
+              <option>Black</option>
+              <option>Blue</option>
+              <option>Red</option>
+            </select>
+          </div>
+          <div class="option">
+            <label>#2:</label>
+            <select>
+              <option>Size</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option>Color</option>
+              <option>Black</option>
+              <option>Blue</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <!-- Box 3 -->
+    <div class="box" id="box-3">
+      <input type="radio" name="unit" id="unit-3">
+      <label for="unit-3">
+        <div class="box-header">
+          <span>3 Unit</span>
+          <span class="discount">30% Off</span>
+          <span class="price">$24.00 USD</span>
+          <span class="strike">$24.00 USD</span>
+        </div>
+      </label>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <span>Free Delivery</span>
+      <span>Total: <strong>$18.00</strong></span>
+      <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
